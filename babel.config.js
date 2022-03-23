@@ -14,11 +14,11 @@ module.exports = {
       "module-resolver",
       {
         alias: {
-          "@module": ["./src/modules"],
-          "@config": ["./src/config"],
-          "@shared": ["./src/shared"],
-          "@errors": ["./src/errors"],
-          "@utils": ["utils"]
+          "@module": "./src/modules",
+          "@config": "./src/config",
+          "@shared": "./src/shared",
+          "@errors": "./src/errors",
+          "@utils": "utils"
         }
       }
     ],
